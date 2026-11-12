@@ -1,5 +1,7 @@
 # Como publicar o portfólio com domínio próprio
 
+> Domínio escolhido: **viniciusslongo.dev** (comprado na Hostinger, DNS na Cloudflare). Na Hostinger, basta trocar os nameservers para os 2 que a Cloudflare indicar.
+
 O site é estático (HTML + CSS + JS), então dá para hospedar **de graça**. O único custo é o domínio.
 
 ## Recomendação
