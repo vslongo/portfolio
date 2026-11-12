@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinícius Slongo · Desenvolvedor Full Stack</title>
+  <meta name="description" content="Desenvolvedor Full Stack (PHP, Node.js, Go, React) com 4+ anos construindo sistemas críticos: integrações fiscais e financeiras, APIs e otimização de banco de dados." />
+  <meta name="author" content="Vinícius Slongo" />
+
+  <!-- Prévia ao colar o link no LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vinícius Slongo · Desenvolvedor Full Stack" />
+  <meta property="og:description" content="PHP · Node.js · Go · React — APIs, integrações fiscais e financeiras e sistemas de alta performance." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/66139105?v=4" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Início"><span class="mono">&lt;</span>VS<span class="mono">/&gt;</span></a>
+      <nav class="nav__links" aria-label="Seções">
+        <a href="#sobre" data-en="About">Sobre</a>
+        <a href="#experiencia" data-en="Experience">Experiência</a>
+        <a href="#projetos" data-en="Projects">Projetos</a>
+        <a href="#stack">Stack</a>
+        <a href="#contato" data-en="Contact">Contato</a>
+      </nav>
+      <button class="lang" id="langToggle" type="button" aria-label="Mudar idioma / Change language">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="badge"><span class="dot"></span><span data-en="Open to new opportunities · remote">Aberto a novas oportunidades · remoto</span></p>
+          <h1>Vinícius Slongo</h1>
+          <p class="hero__role mono">Full Stack Developer <span class="muted">// PHP · Node.js · Go · React</span></p>
+          <p class="hero__lead" data-en="I build business-critical systems end to end: APIs, tax and financial integrations, and databases that respond in milliseconds. 4+ years working remotely with international teams.">
+            Construo sistemas críticos para o negócio de ponta a ponta: APIs, integrações fiscais e financeiras e bancos de dados que respondem em milissegundos. Mais de 4 anos atuando remoto com times internacionais.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/vinicius-slongo/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/vslongo" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="assets/Vinicius_Slongo_CV.pdf" target="_blank" rel="noopener" data-en="Résumé (PDF)">Currículo (PDF)</a>
+          </div>
+        </div>
+        <div class="hero__card reveal">
+          <img src="https://avatars.githubusercontent.com/u/66139105?v=4" alt="Foto de Vinícius Slongo" width="160" height="160" />
+          <div class="code">
+<pre><span class="k">const</span> <span class="v">vinicius</span> = {
+  <span class="p">local</span>: <span class="s">"Videira, SC – Brasil"</span>,
+  <span class="p">experiencia</span>: <span class="s">"4+ anos"</span>,
+  <span class="p">foco</span>: [<span class="s">"APIs"</span>, <span class="s">"integrações"</span>, <span class="s">"performance"</span>],
+  <span class="p">ingles</span>: <span class="s">"B2"</span>,
+  <span class="p">disponivel</span>: <span class="b">true</span>,
+};</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NÚMEROS -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal"><strong>10k+</strong><span data-en="tax invoices / month through an integration I rewrote">notas fiscais/mês na integração que reescrevi</span></div>
+        <div class="stat reveal"><strong>20+</strong><span data-en="clinics and hospitals using it in production">clínicas e hospitais usando em produção</span></div>
+        <div class="stat reveal"><strong>5s → 10ms</strong><span data-en="query time after index and query tuning">tempo de consulta após otimização</span></div>
+        <div class="stat reveal"><strong>200k+</strong><span data-en="users on the platform I worked on at Hubsys">usuários na plataforma em que atuei na Hubsys</span></div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container two-col">
+        <h2 class="reveal"><span class="mono accent">01.</span> <span data-en="About me">Sobre mim</span></h2>
+        <div class="reveal">
+          <p data-en="I'm a Full Stack developer from Videira, Santa Catarina, Brazil. I started programming in a technical high school course and never stopped. Today I work mainly on the back end with PHP (Laravel, CakePHP, Zend), Node.js (NestJS, Express) and Go, and I also handle the front end with React and TypeScript.">
+            Sou desenvolvedor Full Stack de Videira, Santa Catarina. Comecei a programar no ensino médio técnico e não parei mais. Hoje atuo principalmente no back-end com PHP (Laravel, CakePHP, Zend), Node.js (NestJS, Express) e Go, e também cuido do front-end com React e TypeScript.
+          </p>
+          <p data-en="I like to understand the business before writing code: I work closely with finance teams, POs and designers to turn business rules into clear technical specs. I care about code review, automated tests and systems that keep running when things get busy.">
+            Gosto de entender o negócio antes de escrever código: trabalho junto com financeiro, POs e designers para transformar regras de negócio em especificações técnicas claras. Me importo com code review, testes automatizados e sistemas que continuam de pé quando o volume aumenta.
+          </p>
+          <p data-en="I'm finishing my Bachelor's in Computer Science at IFC Videira, with a thesis on validating teaching plans with LLMs. Outside of code, I run a small 3D printing studio.">
+            Estou concluindo o Bacharelado em Ciência da Computação no IFC Videira, com TCC sobre validação de planos de ensino com LLMs. Fora do código, toco um pequeno estúdio de impressão 3D.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia" class="section">
+      <div class="container">
+        <h2 class="reveal"><span class="mono accent">02.</span> <span data-en="Experience">Experiência</span></h2>
+        <ol class="timeline">
+          <li class="job reveal">
+            <div class="job__head">
+              <h3>G2i <span class="muted" data-en="· Back-end / Full Stack Developer">· Desenvolvedor Back-end / Full Stack</span></h3>
+              <span class="job__date mono" data-en="Oct 2024 – Jul 2026">out 2024 – jul 2026</span>
+            </div>
+            <ul>
+              <li data-en="<b>Electronic tax invoices (NFS-e):</b> replaced an undocumented legacy integration, built directly against city halls, with the Focus NFe API. It runs in 20+ clinics and hospitals and issues 10k+ invoices per month. Swapping status polling for webhooks brought issuance feedback down to seconds."><b>Nota fiscal eletrônica (NFS-e):</b> substituí uma integração legada e sem documentação, feita direto com as prefeituras, pela API da Focus NFe. Roda em mais de 20 clínicas e hospitais e emite mais de 10 mil notas por mês. Troquei a consulta de status por webhooks e o retorno da emissão caiu para segundos.</li>
+              <li data-en="<b>Performance:</b> optimized the user data reconciliation query with indexes and query tuning — from ~5 s to ~10 ms."><b>Performance:</b> otimizei a consulta de conciliação de dados com índices e ajuste das queries — de ~5 s para ~10 ms.</li>
+              <li data-en="Built token-based authentication for the main system and corporate APIs, handling sensitive health and financial data.">Desenvolvi a autenticação por token do sistema principal e das APIs corporativas, com dados sensíveis de saúde e financeiros.</li>
+              <li data-en="Implemented asynchronous messaging with RabbitMQ (1,000+ messages/day) and reliable background jobs.">Implementei mensageria assíncrona com RabbitMQ (mais de 1.000 mensagens/dia) e jobs confiáveis em background.</li>
+              <li data-en="Built APIs and integrations with payment platforms, ERPs and third-party systems, including financial reconciliation routines.">Criei APIs e integrações com plataformas de pagamento, ERPs e sistemas de terceiros, incluindo conciliação financeira.</li>
+            </ul>
+            <p class="tags"><span>PHP</span><span>Laravel</span><span>CakePHP</span><span>NestJS</span><span>TypeScript</span><span>PostgreSQL</span><span>Oracle</span><span>RabbitMQ</span><span>Docker</span></p>
+          </li>
+
+          <li class="job reveal">
+            <div class="job__head">
+              <h3>Hubsys <span class="muted" data-en="· Web Developer">· Desenvolvedor Web</span></h3>
+              <span class="job__date mono" data-en="Feb 2023 – Oct 2024">fev 2023 – out 2024</span>
+            </div>
+            <ul>
+              <li data-en="<b>Travel Manager</b> — the company's main system, with 200k+ students and consultants: worked on the financial and service-change modules and on database maintenance (MySQL/PostgreSQL)."><b>Travel Manager</b> — sistema principal da empresa, com mais de 200 mil alunos e consultores: atuei nos módulos financeiro e de alteração de serviços e na manutenção do banco de dados (MySQL/PostgreSQL).</li>
+              <li data-en="<b>Student Portal:</b> built the platform integrated with Travel Manager (PHP back end, React/TypeScript front end) so students can view their contracts and buy or change services on their own."><b>Área do Aluno:</b> desenvolvi a plataforma integrada ao Travel Manager (back-end PHP, front-end React/TypeScript) para o aluno consultar o contrato e comprar ou alterar serviços sozinho.</li>
+            </ul>
+            <p class="tags"><span>PHP</span><span>Laravel</span><span>Zend</span><span>React</span><span>TypeScript</span><span>MySQL</span><span>PostgreSQL</span></p>
+          </li>
+
+          <li class="job reveal">
+            <div class="job__head">
+              <h3>Nonna Gestão de Tráfego <span class="muted" data-en="· WordPress Developer (Intern)">· Desenvolvedor WordPress (Estágio)</span></h3>
+              <span class="job__date mono" data-en="2021 – 2022">2021 – 2022</span>
+            </div>
+            <ul>
+              <li data-en="Worked directly with clients gathering requirements and building custom WordPress sites for each business.">Atuei direto com clientes no levantamento de requisitos e no desenvolvimento de sites WordPress personalizados para cada negócio.</li>
+            </ul>
+            <p class="tags"><span>WordPress</span><span>PHP</span><span>HTML/CSS</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="reveal"><span class="mono accent">03.</span> <span data-en="Projects">Projetos</span></h2>
+        <div class="projects">
+          <article class="project project--featured reveal">
+            <p class="project__kicker mono" data-en="SaaS · in development">SaaS · em desenvolvimento</p>
+            <h3>Prumo</h3>
+            <p data-en="Management SaaS for small auto repair shops. The technician builds a quote on their phone and sends a link via WhatsApp; the customer picks the items, signs on screen, and a work order is created automatically. Monorepo with a Laravel API, a mobile-first React front end and a dedicated Node.js worker for the official WhatsApp Cloud API.">
+              SaaS de gestão para oficinas mecânicas pequenas. O técnico monta o orçamento no celular e manda um link pelo WhatsApp; o cliente escolhe os itens, assina na tela e a Ordem de Serviço é criada automaticamente. Monorepo com API em Laravel, front-end React pensado para celular e um worker Node.js próprio para a WhatsApp Cloud API oficial.
+            </p>
+            <p class="tags"><span>Laravel 12</span><span>React 19</span><span>TypeScript</span><span>PostgreSQL</span><span>Redis</span><span>Node.js</span><span>Docker</span><span>Playwright</span></p>
+            <a class="project__link" href="https://github.com/vslongo/prumo" target="_blank" rel="noopener" data-en="View on GitHub →">Ver no GitHub →</a>
+          </article>
+
+          <article class="project reveal">
+            <p class="project__kicker mono" data-en="Thesis · AI">TCC · IA</p>
+            <h3 data-en="Teaching plan validation with LLMs">Validação de planos de ensino com LLMs</h3>
+            <p data-en="Bachelor's thesis in Computer Science: using large language models to check whether course teaching plans meet the required criteria.">Trabalho de conclusão do Bacharelado em Ciência da Computação: uso de modelos de linguagem para verificar se planos de ensino atendem aos critérios exigidos.</p>
+            <p class="tags"><span>LLMs</span><span data-en="NLP">PLN</span></p>
+          </article>
+
+          <article class="project reveal">
+            <p class="project__kicker mono" data-en="Web app">Web app</p>
+            <h3>Meu Lar</h3>
+            <p data-en="Shared household shopping list: Google sign-in, one list per home with invites, access rules by member and automatic product photos by name.">Lista de compras compartilhada da casa: login com Google, uma lista por casa com convites, regras de acesso por membro e foto automática do produto pelo nome.</p>
+            <p class="tags"><span>JavaScript</span><span>Firebase</span><span>Node.js</span></p>
+            <a class="project__link" href="https://github.com/vslongo/meu-lar" target="_blank" rel="noopener" data-en="View on GitHub →">Ver no GitHub →</a>
+          </article>
+
+          <article class="project reveal">
+            <p class="project__kicker mono" data-en="Theory of computation">Teoria da computação</p>
+            <h3>Busy Beaver Explorer</h3>
+            <p data-en="Turing machine simulator that searches for the 2- and 3-state Busy Beaver champions — 16.7 million machines explored in the browser, with charts and step-by-step playback.">Simulador de Máquinas de Turing que busca a campeã do Castor Ocupado com 2 e 3 estados — 16,7 milhões de máquinas exploradas no navegador, com gráficos e execução passo a passo.</p>
+            <p class="tags"><span>JavaScript</span><span>HTML/CSS</span></p>
+            <a class="project__link" href="https://github.com/vslongo/castor-busy-beaver" target="_blank" rel="noopener" data-en="View on GitHub →">Ver no GitHub →</a>
+          </article>
+
+          <article class="project reveal">
+            <p class="project__kicker mono" data-en="Artificial intelligence">Inteligência artificial</p>
+            <h3 data-en="Genetic algorithm for aircraft load">Algoritmo genético para carga de avião</h3>
+            <p data-en="Genetic algorithm that optimizes how cargo is distributed in an aircraft. Built with a classmate for the Artificial Intelligence course.">Algoritmo genético que otimiza a distribuição de carga em um avião. Feito em dupla na disciplina de Inteligência Artificial.</p>
+            <p class="tags"><span>PHP</span><span data-en="Genetic algorithms">Algoritmos genéticos</span></p>
+            <a class="project__link" href="https://github.com/vslongo/Algoritimo-geneticos-distribuicao-carga-avi-o" target="_blank" rel="noopener" data-en="View on GitHub →">Ver no GitHub →</a>
+          </article>
+        </div>
+        <p class="more reveal"><a href="https://github.com/vslongo?tab=repositories" target="_blank" rel="noopener" data-en="See all repositories on GitHub →">Ver todos os repositórios no GitHub →</a></p>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="container">
+        <h2 class="reveal"><span class="mono accent">04.</span> Stack</h2>
+        <div class="stack">
+          <div class="stack__group reveal">
+            <h3 data-en="Back end">Back-end</h3>
+            <p class="tags"><span>PHP</span><span>Laravel</span><span>CakePHP</span><span>Zend</span><span>Node.js</span><span>NestJS</span><span>Express</span><span>Go</span></p>
+          </div>
+          <div class="stack__group reveal">
+            <h3 data-en="Front end">Front-end</h3>
+            <p class="tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>JavaScript</span><span>HTML5</span><span>CSS</span></p>
+          </div>
+          <div class="stack__group reveal">
+            <h3 data-en="Data & messaging">Dados & mensageria</h3>
+            <p class="tags"><span>PostgreSQL</span><span>MySQL</span><span>Oracle</span><span>MongoDB</span><span>Redis</span><span>RabbitMQ</span><span>Elasticsearch</span></p>
+          </div>
+          <div class="stack__group reveal">
+            <h3 data-en="Infra & practices">Infra & práticas</h3>
+            <p class="tags"><span>Docker</span><span>AWS</span><span>Linux</span><span>CI/CD</span><span>Git</span><span>TDD</span><span>Code review</span><span data-en="AI-assisted development">Dev assistido por IA</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="section">
+      <div class="container two-col">
+        <h2 class="reveal"><span class="mono accent">05.</span> <span data-en="Education">Formação</span></h2>
+        <div class="edu reveal">
+          <div>
+            <h3 data-en="B.Sc. in Computer Science">Bacharelado em Ciência da Computação</h3>
+            <p class="muted" data-en="Instituto Federal Catarinense (IFC), Videira · expected Dec 2026">Instituto Federal Catarinense (IFC), Videira · conclusão prevista dez/2026</p>
+          </div>
+          <div>
+            <h3 data-en="Technical high school in Computing">Técnico em Informática integrado ao ensino médio</h3>
+            <p class="muted">Instituto Federal Catarinense (IFC), Videira · 2019 – 2021</p>
+          </div>
+          <div>
+            <h3 data-en="Courses">Cursos</h3>
+            <p class="muted" data-en="RESTful APIs with Node.js · AWS Serverless with TypeScript · Elasticsearch & Elastic Stack · Full Stack JavaScript (OneBitCode)">API RESTful com Node.js · AWS Serverless com TypeScript · Elasticsearch e Elastic Stack · Full Stack JavaScript (OneBitCode)</p>
+          </div>
+          <div>
+            <h3 data-en="Languages">Idiomas</h3>
+            <p class="muted" data-en="Portuguese (native) · English B2 (EF SET)">Português (nativo) · Inglês B2 (EF SET)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contact">
+      <div class="container contact__inner reveal">
+        <h2><span class="mono accent">06.</span> <span data-en="Let's talk">Vamos conversar</span></h2>
+        <p data-en="Looking for someone to build or untangle a back end, an integration or a slow query? My inbox is open.">Precisa de alguém para construir ou destravar um back-end, uma integração ou uma consulta lenta? Minha caixa de entrada está aberta.</p>
+        <a class="btn btn--primary btn--lg" href="mailto:vslongo@gmail.com">vslongo@gmail.com</a>
+        <div class="contact__links">
+          <a href="https://www.linkedin.com/in/vinicius-slongo/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/vslongo" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.instagram.com/gv.3dstudio/" target="_blank" rel="noopener" data-en="3D printing">Impressão 3D</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container mono muted">© <span id="year">2026</span> Vinícius Slongo · <span data-en="Made with HTML, CSS and a bit of JS">Feito com HTML, CSS e um pouco de JS</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
