@@ -100,13 +100,19 @@ h1 { font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.05; letter-spacing: -
 /* STATS */
 .stats { padding: 1rem 0 2rem; }
 .stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
-.stat { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; }
-.stat strong {
-  display: block; font-size: 1.9rem; font-weight: 800; letter-spacing: -.5px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
+.stat {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1.4rem; transition: border-color .2s, transform .2s;
 }
-.stat span { color: var(--muted); font-size: .9rem; }
+.stat:hover { border-color: rgba(34, 211, 238, .5); transform: translateY(-3px); }
+.stat__icon {
+  display: inline-grid; place-items: center;
+  width: 42px; height: 42px; border-radius: 10px;
+  background: rgba(34, 211, 238, .1); border: 1px solid rgba(34, 211, 238, .25);
+  color: var(--accent); font-size: 1rem; font-weight: 500;
+}
+.stat h3 { font-size: 1.05rem; margin: 1rem 0 .4rem; }
+.stat p { color: var(--muted); font-size: .9rem; line-height: 1.55; }
 
 /* SECTIONS */
 .section { padding: 5rem 0; }
